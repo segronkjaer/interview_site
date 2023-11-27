@@ -117,6 +117,13 @@ p {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.grid_videoer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
 
 /* FOOTER */
