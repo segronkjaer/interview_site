@@ -11,6 +11,13 @@ img {
   object-fit: cover;
 }
 
+video, iframe {
+    width: 100%;
+    height: 100%;
+    display: block; 
+    object-fit: cover;
+}
+
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -117,13 +124,22 @@ p {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .grid_videoer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    
+    grid-template-columns: 1fr;
+    padding: 5rem;
+    gap: 30px;
+    margin-bottom: 15rem;
+}
+
+.brodtekst2 {
+    font-family: 'Archivo', sans-serif;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: center;
 }
 
 /* FOOTER */
@@ -131,6 +147,6 @@ p {
     list-style: none;
     font-family: 'Archivo', sans-serif;
     color: rgba(0, 0, 0, 0.806);
-    margin: 4rem;
+    margin-left: 1rem;
     font-size: medium;
   }
