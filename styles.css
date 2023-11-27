@@ -27,6 +27,11 @@ main {
 }
 
 /* STYLING AF TEKST */
+@font-face {
+    font-family: 'Archivo Narrow', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&display=swap');
+}
+
 a {
     color: rgba(0, 0, 0, 0.806);
     font-family: 'Archivo', sans-serif;
@@ -59,7 +64,7 @@ p {
     margin-bottom: 1rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    font-weight: lighter; /* hvorfor virker dette ikke? */
+    font-weight: 100; /* hvorfor virker dette ikke? */
 }
 
 .brodtekst {
@@ -167,7 +172,7 @@ p {
 /* FOOTER */
 .footerlist {
     list-style: none;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Archivo Narrow', sans-serif;
     color: rgba(0, 0, 0, 0.806);
     margin: 4rem;
     font-size: medium;
